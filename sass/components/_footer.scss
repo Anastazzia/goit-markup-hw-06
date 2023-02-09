@@ -1,0 +1,136 @@
+.bg-footer {
+    color: var(--primary-bg-color);
+    background-color: var(--bg-color);
+    padding-top: 0px;
+    padding-bottom: 0px;
+}
+
+.logo-footer {
+    color: var(--text-footer);
+    font-family: 'Raleway';
+    letter-spacing: 0.03em;
+    text-decoration: none;
+    text-transform: none;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 26px;
+    line-height: 1.19;
+
+
+}
+
+.footer-adress a {
+    color: var(--text-footer);
+    font-size: 14px;
+    font-style: normal;
+    line-height: 1.71;
+    text-transform: none;
+    font-family: 'Roboto', sans-serif;
+
+    transition-property: color;
+    transition-duration: 250ms;
+    transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
+}
+
+.footer-adress {
+    margin-bottom: 9px;
+
+
+}
+
+.footer-adress-contact a {
+    color: var(--footer-team-text);
+    font-size: 14px;
+    font-style: normal;
+    letter-spacing: 0.03em;
+    line-height: 1.71;
+    text-transform: none;
+    font-family: 'Roboto', sans-serif;
+
+    transition-property: color;
+    transition-duration: 250ms;
+    transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
+}
+
+.footer-adress-contact-mail a {
+    color: var(--footer-team-text);
+    font-size: 14px;
+    font-style: normal;
+    letter-spacing: 0.03em;
+    line-height: 1.71;
+    text-transform: none;
+    font-family: 'Roboto', sans-serif;
+
+    transition-property: color;
+    transition-duration: 250ms;
+    transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
+}
+
+.footer-adress-contact-mail {
+    margin-bottom: 9px;
+}
+
+
+.site_nav_footer {
+    margin-top: 20px;
+
+    transition-property: color;
+    transition-duration: 250ms;
+    transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
+
+}
+
+
+
+
+.footer-div {
+    display: flex;
+    padding-top: 60px;
+    padding-bottom: 60px;
+}
+
+.site_nav_footer :hover,
+.site_nav_footer :focus {
+    color: var(--accent-color);
+
+}
+
+.div-footer-text {
+    display: block;
+    margin-right: 70px;
+}
+
+.div-footer-icons {
+    display: block;
+    padding-top: 12px;
+}
+
+.modal-text {
+    text-transform: uppercase;
+    font-weight: 700;
+
+
+
+}
+
+.link-icon-team-footer {
+    display: flex;
+    width: 44px;
+    height: 44px;
+    border-radius: 50%;
+    align-items: center;
+    justify-content: center;
+    color: var(--primary-bg-color);
+    background-color: rgba(255, 255, 255, 0.1);
+
+    transition-property: background-color, color;
+    transition-duration: 250ms;
+    transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
+}
+
+.link-icon-team-footer:hover,
+.link-icon-team-footer:focus {
+    background-color: var(--accent-color);
+    color: var(--team-bg);
+
+}
